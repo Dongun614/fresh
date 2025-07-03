@@ -11,7 +11,8 @@ export default function List(){
        {
         상품.map((a, i)=>{
           return(
-            <div className="food">
+            <div className="food" key={i}>
+              <img src={`/food${i}.png`} alt={ a } className="food-img"></img>
               <h4>{ 상품[i] } $40</h4>
             </div>
           )
