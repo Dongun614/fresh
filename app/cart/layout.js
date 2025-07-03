@@ -21,7 +21,6 @@ export default function CartLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-          <p>현대카드 무이자이벤트중</p>
         {children}
       </body>
     </html>
